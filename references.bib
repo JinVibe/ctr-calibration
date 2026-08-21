@@ -1,0 +1,93 @@
+% references.bib — grows with the paper.
+% Clusters: (b) calibration foundations, (a) CTR under temporal drift,
+% (c) calibration drift as a named phenomenon, plus the model paper.
+% TODO before writing the intro: sweep the CTR *calibration methods* cluster
+% ("field-aware calibration CTR", "smoothed isotonic ads", "neural calibration
+% advertising") and cite/distinguish static-setting method papers.
+
+% ---------- (b) Calibration foundations ----------
+
+@inproceedings{guo2017calibration,
+  title     = {On Calibration of Modern Neural Networks},
+  author    = {Guo, Chuan and Pleiss, Geoff and Sun, Yu and Weinberger, Kilian Q.},
+  booktitle = {Proceedings of the 34th International Conference on Machine Learning (ICML)},
+  year      = {2017}
+}
+
+@incollection{platt1999probabilistic,
+  title     = {Probabilistic Outputs for Support Vector Machines and Comparisons to Regularized Likelihood Methods},
+  author    = {Platt, John C.},
+  booktitle = {Advances in Large Margin Classifiers},
+  publisher = {MIT Press},
+  year      = {1999}
+}
+
+@inproceedings{zadrozny2002transforming,
+  title     = {Transforming Classifier Scores into Accurate Multiclass Probability Estimates},
+  author    = {Zadrozny, Bianca and Elkan, Charles},
+  booktitle = {Proceedings of the 8th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD)},
+  year      = {2002}
+}
+
+@inproceedings{ovadia2019trust,
+  title     = {Can You Trust Your Model's Uncertainty? {E}valuating Predictive Uncertainty under Dataset Shift},
+  author    = {Ovadia, Yaniv and Fertig, Emily and Ren, Jie and Nado, Zachary and Sculley, D. and Nowozin, Sebastian and Dillon, Joshua V. and Lakshminarayanan, Balaji and Snoek, Jasper},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year      = {2019}
+}
+
+@inproceedings{he2014practical,
+  title     = {Practical Lessons from Predicting Clicks on Ads at {F}acebook},
+  author    = {He, Xinran and Pan, Junfeng and Jin, Ou and Xu, Tianbing and Liu, Bo and Xu, Tao and Shi, Yanxin and Atallah, Antoine and Herbrich, Ralf and Bowers, Stuart and Candela, Joaquin Qui{\~n}onero},
+  booktitle = {Proceedings of the 8th International Workshop on Data Mining for Online Advertising (ADKDD)},
+  year      = {2014}
+}
+
+% ---------- Model ----------
+
+@inproceedings{guo2017deepfm,
+  title     = {{DeepFM}: A Factorization-Machine Based Neural Network for {CTR} Prediction},
+  author    = {Guo, Huifeng and Tang, Ruiming and Ye, Yunming and Li, Zhenguo and He, Xiuqiang},
+  booktitle = {Proceedings of the 26th International Joint Conference on Artificial Intelligence (IJCAI)},
+  year      = {2017}
+}
+
+% ---------- (a) CTR under temporal drift (accuracy-focused; no calibration) ----------
+
+@article{zhang2022adamoe,
+  title   = {Concept Drift Adaptation for {CTR} Prediction via Mixture of Experts ({AdaMoE})},
+  journal = {arXiv preprint arXiv:2204.05101},
+  year    = {2022},
+  note    = {Author list and exact title to be verified against the arXiv record before citing}
+}
+
+@inproceedings{liu2023drift,
+  title     = {Always Strengthen Your Strengths: A Drift-Aware Incremental Learning Framework for {CTR} Prediction},
+  booktitle = {Proceedings of the 46th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)},
+  year      = {2023},
+  note      = {arXiv:2304.09062; JD.com. Author list to be verified before citing}
+}
+
+@article{tif2023temporal,
+  title   = {Temporal Importance Factor for Loss Weighting in Click-Through Rate Prediction},
+  journal = {arXiv preprint arXiv:2311.16878},
+  year    = {2023},
+  note    = {Evaluated on Avazu. Author list and venue to be verified before citing}
+}
+
+% ---------- (c) Calibration drift as a named phenomenon ----------
+
+@article{davis2020detection,
+  title   = {Detection of Calibration Drift in Clinical Prediction Models to Inform Model Updating},
+  author  = {Davis, Sharon E. and Greevy, Robert A. and Lasko, Thomas A. and Walsh, Colin G. and Matheny, Michael E.},
+  journal = {Journal of Biomedical Informatics},
+  volume  = {112},
+  year    = {2020}
+}
+
+@article{franck2025cusum,
+  title   = {{CUSUM}-Based Online Calibration Monitoring},
+  journal = {arXiv preprint arXiv:2510.25573},
+  year    = {2025},
+  note    = {Online calibration-drift monitoring for image classification; relevant to Phase 2 Option B. Title/authors to be verified before citing}
+}

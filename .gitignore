@@ -1,0 +1,31 @@
+# data: keep the download script, ignore everything it produces
+data/*
+!data/download.sh
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# notebooks
+.ipynb_checkpoints/
+
+# experiment artifacts (results.csv IS tracked; large intermediates are not)
+results/checkpoints/
+*.pt
+*.ckpt
+
+# editors / os
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# secrets
+.env
+kaggle.json
+
+# private planning doc (Moloco/NUS strategy) — keep out of the public repo
+ctr-calibration-PRD.md

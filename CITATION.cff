@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+title: "ctr-calibration: Calibration Decay under Temporal Drift in CTR Prediction"
+type: software
+authors:
+  - family-names: "Jin"
+    given-names: "DongHyeon"
+    email: "asmjjya@gmail.com"
+repository-code: "https://github.com/JinVibe/ctr-calibration"
+abstract: >-
+  Empirical study of calibration decay in CTR prediction models under real
+  temporal drift: how ECE degrades with temporal distance from the training
+  window, and how much of that degradation post-hoc calibration methods
+  (temperature scaling, isotonic regression) recover.
+keywords:
+  - calibration
+  - CTR prediction
+  - temporal drift
+  - expected calibration error
+  - computational advertising
+license: MIT
+date-released: "2026-08-21"
